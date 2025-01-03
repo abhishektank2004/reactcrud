@@ -1,0 +1,98 @@
+/* Login.css */
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;  /* Maximum width for large screens */
+    min-width: 300px;  /* Minimum width for smaller screens */
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .btn-login {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-login:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-signup {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-signup:hover {
+    background-color: #218838;
+  }
+  
+  /* For small screens (like mobile) */
+  @media (max-width: 480px) {
+    .login-box {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .btn-login, .btn-signup {
+      font-size: 1rem;
+    }
+  
+    input {
+      font-size: 1rem;
+      padding: 8px;
+    }
+  }
+  

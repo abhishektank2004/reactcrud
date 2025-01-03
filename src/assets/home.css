@@ -1,0 +1,24 @@
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+  
+  .image-slider {
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+    height: 800px; /* Set a fixed height for the container */
+    overflow: hidden; /* Hide overflow if any */
+  }
+  
+  .image-slider img {
+    object-fit: cover; /* Ensure the image covers the container properly */
+    transition: opacity 1s ease-in-out; /* Optional smooth transition for fading images */
+  }
+  

@@ -1,0 +1,10 @@
+1-How to mongoldb start in terminal
+
+    1	abhishektank@192 ~ % sudo mongod --dbpath=/Users/abhishektank/data/db
+    2	password enter  of leptop
+
+2-Then nodes server start in terminal 
+    npm start
+
+3-start project
+	npm run dev
